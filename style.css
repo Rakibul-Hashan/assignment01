@@ -1,0 +1,9 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    margin: 0;
+    padding: 0;
+}
+.d-flex{
+    display: flex;
+}
