@@ -54,7 +54,7 @@ h5{
 }
 .flex-container{
     display: flex;
-    padding: 0 5% 3% 5%;
+    padding: 0 8% 3% 8%;
 }
 .d-flex{
     display: flex;
@@ -66,15 +66,15 @@ h5{
     font-family: Poppins, sans-serif;
     margin-top: 15px;
     display: inline-block;
-    background: #FF5959;
+    background: #4142D1;
     padding: 14px 30px;
-    border: 2px solid #FF5959;
+    border: 2px solid #4142D1;
     transition: 0.3s linear;
 }
 .btn:hover{
-    color: #FF5959;
+    color: #4142D1;
     background: #ffffff;
-    border: 2px solid #FF5959;
+    border: 2px solid #4142D1;
 }
 /* hero-banner */
 .hero-banner{
@@ -139,4 +139,85 @@ h5{
 }
 #goal{
     background: #FFF4D6;
+}
+
+/* without-limits */
+.without-limits {
+     background-image:   url(./images/shapes/shape-1.png), url(./images/shapes/banner-bg.png);
+     background-repeat: no-repeat, no-repeat;
+     background-position: left center, left bottom ;
+     background-size: 17%, 07%;
+
+}
+.img-with-text{
+    justify-content: space-between;
+    align-items: center;
+}
+.img-with-text div img{
+    width: 100%;
+}
+.without-limits.img-with-text div:nth-child(1){
+    width:  35%; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 3%;
+}
+.without-limits.img-with-text div:nth-child(2){
+    width:60%
+}
+
+/* global-community */
+
+.global-community.img-with-text{
+    justify-content: space-between;
+}
+.global-community.img-with-text div:nth-child(1){
+    width:60%
+}
+.global-community.img-with-text div:nth-child(2){
+    width:  35%;
+}
+/* contact */
+.contact{
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( to right, #4F9DA61A, #FF59591A,#FFF4D6);
+}
+.contact div{
+    text-align: center;
+}
+.contact h2{
+    margin: 10px 0;
+}
+input[type="email"] {
+    border: 2px solid #4142D1;
+    padding: 20px 20px;
+    width: 280px;
+    height: 20px;
+}
+input[type="submit"]{
+    padding: 20px 50px;
+    cursor: pointer;
+}
+.contact .btn{
+    font-weight: 700;
+}
+/* footer */
+footer{
+    background: #000;
+    text-align: center;
+    padding: 3% 0;
+}
+footer h1{
+    color: #fff;
+    font-style: italic;
+    font-family: 'Yeseva One', cursive;
+}
+footer span{
+    color: #FF5959;
+}
+footer p{
+        color: lightgrey;
 }
