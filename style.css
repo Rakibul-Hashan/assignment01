@@ -107,7 +107,7 @@ h5{
 .hero-banner div div{
     border-left: 4px solid black;
   border-image: linear-gradient(#5756E1, #844EEE) 1;
-  padding: 0 1%;
+  padding-left: 10px;
   border-radius: 30px;
 }
 /* mymission */
